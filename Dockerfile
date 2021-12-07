@@ -5,3 +5,4 @@ FROM jupyter/scipy-notebook
 
 # Install altair-saver
 RUN conda install -c conda-forge altair_saver=0.5.0
+RUN pip install selenium
